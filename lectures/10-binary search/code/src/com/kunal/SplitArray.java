@@ -9,6 +9,7 @@ public class SplitArray {
         int start = 0;
         int end = 0;
 
+        // case 1
         for (int i = 0; i < nums.length; i++) {
             start = Math.max(start, nums[i]); // in the end of the loop this will contain the max item of the array
             end += nums[i];
